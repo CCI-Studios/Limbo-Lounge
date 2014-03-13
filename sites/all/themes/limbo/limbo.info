@@ -1,0 +1,19 @@
+name = Limbo Lounge
+description = Limbo Lounge Custom
+core = 7.x
+
+scripts[] = js/bg.js
+scripts[] = js/tabs.js
+scripts[] = js/instagram.js
+scripts[] = js/responsive-menu.js
+scripts[] = js/private-photos.js
+
+stylesheets[all][] = stylesheets/screen.css
+
+regions[header] = Header
+regions[navigation] = Navigation
+regions[help] = Help
+regions[content] = Content
+regions[widgets] = Widgets
+regions[footer] = Footer
+

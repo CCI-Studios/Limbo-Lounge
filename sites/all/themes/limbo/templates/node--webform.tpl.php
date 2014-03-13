@@ -1,0 +1,1 @@
+<?php print views_embed_view('webform', 'block', $node->nid); ?>
