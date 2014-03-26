@@ -444,7 +444,7 @@ h4
 		}
 	}
 	
-	#block-menu-block-2
+	#block-menu-menu-footer-menu
 	{
 		margin:20px 0;
 
@@ -539,15 +539,35 @@ h4
 
 		&#block-block-5 
 		{
-			img 
+			.content
 			{
-				width:100%!important;
-				height:100%!important;
+				overflow:hidden;
 				border:1px solid white;
 				border-radius:2px;
 				box-sizing:border-box;
 				-webkit-box-sizing:border-box;
 				-moz-box-sizing:border-box;
+
+				a
+				{
+					display:block;
+					overflow:hidden;
+					width:100%!important;
+					height:100%!important;
+
+					img 
+					{
+						width:50%!important;
+						height:auto!important;
+						float:left;
+
+						&.default
+						{
+							width:100%!important;
+							height:100%!important;
+						}
+					}
+				}
 			}
 		}
 		&#block-views-single-promos-block
@@ -842,6 +862,26 @@ body.features
 					display:block;
 				}
 			}
+		}
+	}
+}
+.view-photo-gallery-node
+{
+	margin:-15px;
+	overflow:hidden;
+
+	.view-content ul 
+	{
+		list-style:none;
+		margin:0!important;
+		padding:0;
+
+		li 
+		{
+			list-style:none;
+			margin:15px;
+			padding:0;
+			float:left;
 		}
 	}
 }

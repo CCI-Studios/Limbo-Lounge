@@ -1,10 +1,10 @@
 var header_image = 1;
 (function($) {
 	$(function(){
-		if ($("body").hasClass("front"))
+		if ($("body").hasClass("home"))
 		{
 			next();
-			setInterval(next, 8000);
+			setInterval(next, 6000);
 		}
 		else
 		{
