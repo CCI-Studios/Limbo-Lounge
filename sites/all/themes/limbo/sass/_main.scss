@@ -624,16 +624,18 @@ h4
 		width:48.936%;
 		margin-right:2.127%;
 		float:left;
+		background:url(../images/paint-texture.jpg) center top;
 
 		& > div 
 		{
 			padding:30px;
-			background:url(../images/paint-texture.jpg) center top;
+			margin:30px;
+			border:2px solid #a23e41;
 
 			& > div 
 			{
-				padding:30px;
-				border:2px solid #a23e41;
+				max-width:300px;
+				margin:0 auto;
 
 				& > h3 
 				{
@@ -932,7 +934,7 @@ body.node-type-webform
 
 			& > div
 			{
-				min-height:412px;
+				min-height:420px;
 			}
 		}
 	}
@@ -949,7 +951,7 @@ body.node-type-webform
 
 			& > div
 			{
-				min-height:412px;
+				min-height:420px;
 			}
 		}
 			
@@ -969,7 +971,8 @@ body.node-type-webform
 	}
 
 	.webform-component-textfield,
-	.webform-component-email
+	.webform-component-email,
+	.webform-component-textarea
 	{
 		label 
 		{
@@ -984,7 +987,8 @@ body.node-type-webform
 			}
 		}
 
-		input 
+		input,
+		textarea 
 		{
 			width:75%;
 			width:calc(100% - 80px);
@@ -997,6 +1001,25 @@ body.node-type-webform
 			padding:0 4px;
 			box-shadow:3px 3px 5px rgba(0,0,0,0.2);
 		}
+
+		.form-textarea-wrapper
+		{
+			display:inline-block;
+			width:75%;
+			width:calc(100% - 70px);
+
+			textarea 
+			{
+				width:100%;
+				height:2.5em;
+				line-height:26px;
+			}
+		}
+	}
+
+	.webform-component-textarea label 
+	{
+		vertical-align:top;
 	}
 
 	.form-actions 
