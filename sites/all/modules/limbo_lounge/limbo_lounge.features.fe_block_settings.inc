@@ -86,8 +86,8 @@ function limbo_lounge_default_fe_block_settings() {
     'roles' => array(),
     'themes' => array(
       'limbo' => array(
-        'region' => 'footer',
-        'status' => 1,
+        'region' => '',
+        'status' => 0,
         'theme' => 'limbo',
         'weight' => -6,
       ),
@@ -146,7 +146,7 @@ function limbo_lounge_default_fe_block_settings() {
     'delta' => 'homepage_header_images-block',
     'module' => 'views',
     'node_types' => array(),
-    'pages' => '<front>',
+    'pages' => 'home',
     'roles' => array(),
     'themes' => array(
       'limbo' => array(

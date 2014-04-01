@@ -109,6 +109,7 @@ features[views_view][] = events
 features[views_view][] = features
 features[views_view][] = homepage_header_images
 features[views_view][] = lunch_menu
+features[views_view][] = photo_gallery_node
 features[views_view][] = photos
 features[views_view][] = private_parties_photos
 features[views_view][] = single_promos

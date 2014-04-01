@@ -1060,10 +1060,14 @@ function limbo_lounge_field_default_field_instances() {
         'manualcrop_require_cropping' => array(
           'event_image' => 0,
           'feature_image' => 'feature_image',
+          'home_header_image' => 0,
+          'inner_header_image' => 0,
         ),
         'manualcrop_styles_list' => array(
           'event_image' => 0,
           'feature_image' => 'feature_image',
+          'home_header_image' => 0,
+          'inner_header_image' => 0,
         ),
         'manualcrop_styles_mode' => 'include',
         'manualcrop_thumblist' => 0,
