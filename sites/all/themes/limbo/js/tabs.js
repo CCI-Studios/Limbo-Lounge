@@ -5,6 +5,10 @@
 
 		if ($body.hasClass("logged-in"))
 		{
+			if ($body.hasClass("appetizers"))
+			{
+				$tabs.append("<li><a href='/node/add/appetizer-menu-item'>Add Appetizer Item</a></li>");
+			}
 			if ($body.hasClass("lunch"))
 			{
 				$tabs.append("<li><a href='/node/add/lunch-menu-item'>Add Lunch Item</a></li>");
